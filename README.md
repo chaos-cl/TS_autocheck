@@ -13,3 +13,13 @@ zookeeper_exporter: zookeeper巡检
 mysqld_exporter: mysql巡检
 
 redis_exporter: redis巡检
+
+使用： 
+
+config.py中配置好prometheus地址等参数
+
+执行
+
+python run.py
+
+即可
